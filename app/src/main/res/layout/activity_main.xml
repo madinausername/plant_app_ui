@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="50dp"
+                android:src="@drawable/tree"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PLANTSCAPE"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/text_style"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="#0D986A"/>
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="150dp"
+                android:src="@drawable/image_post"/>
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/image_vector_last"/>
+        </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="30dp"
+        app:cardBackgroundColor="#F9D7BD">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image"/>
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:id="@+id/textView"
+        android:textSize="25sp"
+        android:fontFamily="@font/letter_style_2"
+        android:textColor="#002140"
+        android:textStyle="bold"
+        android:text="Exclusive \nOffer"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:fontFamily="@font/letter_style_2"
+        android:textColor="#002140"
+        android:textStyle="bold"
+        android:text="Get your first \n@ 60% off"
+        android:layout_marginLeft="30dp"/>
+
+    <View
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/dot"/>
+
+    <View
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="-8dp"
+        android:layout_marginLeft="113dp"
+        android:background="@drawable/dot"/>
+
+    <View
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="-8dp"
+        android:layout_marginLeft="126dp"
+        android:background="@drawable/dot"/>
+
+    <View
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="-8dp"
+        android:layout_marginLeft="131dp"
+        android:background="@drawable/dot"/>
+
+    <View
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="-8dp"
+        android:layout_marginLeft="135dp"
+        android:background="@drawable/dot"/>
+
+    <View
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="-8dp"
+        android:layout_marginLeft="148dp"
+        android:background="@drawable/dot"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:fontFamily="@font/letter_style_2"
+        android:background="@drawable/rectangle"
+        android:drawableEnd="@drawable/ic_vector"
+        android:inputType="textPersonName"
+        android:paddingStart="10dp"
+        android:drawableStart="@drawable/vector"
+        android:hint="Search"
+        android:padding="10dp"
+        android:ems="10"/>
+
+
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView"
+        android:layout_marginLeft="20dp"
+        app:srcCompat="@drawable/green_1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:fontFamily="@font/letter_style_2"
+        android:textColor="#0D986A"
+        android:text="Indoor"
+        android:layout_marginLeft="25dp"/>
+
+    <View
+        android:layout_width="41dp"
+        android:layout_height="3dp"
+        android:layout_marginLeft="25dp"
+        android:background="#0D986A"/>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="80dp"
+        app:srcCompat="@drawable/green_2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/letter_style_2"
+        android:textColor="#435B71"
+        android:text="Flower"
+        android:layout_marginLeft="85dp"/>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="80dp"
+        app:srcCompat="@drawable/green_3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/letter_style_2"
+        android:textColor="#435B71"
+        android:text="Green"
+        android:layout_marginLeft="85dp"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-10dp"
+        android:layout_gravity="center_horizontal">
+
+    <View
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/shape_off"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="15dp"
+        android:id="@+id/imageView3"
+        android:layout_marginLeft="-24dp"
+        app:srcCompat="@drawable/in_image"
+        />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/image_last_1" />
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="60dp"
+        android:paddingStart="20dp"
+        app:layout_constraintEnd_toEndOf="parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="15sp"
+        android:fontFamily="@font/letter_style_2"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Monstera Adansonii"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:fontFamily="@font/letter_style_2"
+        android:textColor="@color/black"
+        android:text="Monstera family"/>
+
+</LinearLayout>
+
+    <View
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/shape_geometric"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginRight="-30dp"
+        android:layout_marginBottom="6dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:text="+2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="30dp">
+    </TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="-10dp">
+
+    <View
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/shape_2"/>
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="-24dp"
+        app:srcCompat="@drawable/in_2"/>
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/image_last_2"
+            />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="60dp"
+        android:paddingStart="20dp"
+        app:layout_constraintEnd_toEndOf="parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="15sp"
+        android:fontFamily="@font/letter_style_2"
+        android:textColor="@color/black" android:textStyle="bold"
+        android:text="Monstera Adansonii"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:fontFamily="@font/letter_style_2"
+        android:textColor="@color/black"
+        android:text="Monstera family"/>
+
+</LinearLayout>
+
+    <View
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/shape_num"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginRight="-30dp"
+        android:layout_marginBottom="6dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:text="+"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="30dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:cardCornerRadius="120dp"
+                android:layout_marginTop="20dp"
+                app:cardElevation="5dp"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="30dp">
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="30dp"
+                            app:srcCompat="@drawable/vector_home" />
+                        <View
+                            android:layout_width="15dp"
+                            android:layout_height="5dp"
+                            android:background="@drawable/rectangle_last"
+                            android:layout_marginTop="5dp"
+                            android:layout_gravity="center_horizontal"/>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="30dp"
+                        app:srcCompat="@drawable/image_icon"
+                        android:layout_marginStart="70dp"
+                        android:layout_marginTop="5dp"/>
+
+                    <RelativeLayout
+                        android:layout_width="35dp"
+                        android:layout_height="30dp"
+                        android:layout_marginStart="70dp">
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="30dp"
+                            app:srcCompat="@drawable/image_third"
+                            android:layout_marginTop="5dp"/>
+
+                        <View
+                            android:layout_width="8dp"
+                            android:layout_height="8dp"
+                            android:background="@drawable/circle"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="7dp"
+                            android:layout_marginEnd="2dp"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="35dp"
+                        android:layout_height="30dp"
+                        android:layout_marginStart="70dp">
+                        <ImageView
+                            android:id="@+id/icon_id"
+                            android:layout_width="14dp"
+                            android:layout_height="14dp"
+                            app:srcCompat="@drawable/ellipse_icon"
+                            android:layout_marginTop="5dp"
+                            android:layout_centerHorizontal="true"/>
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="16dp"
+                            android:background="@drawable/icon_shape"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@+id/icon_id"
+                            android:layout_marginEnd="2dp"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
